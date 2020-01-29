@@ -1,6 +1,10 @@
 {
   "extends": [
     "eslint:recommended",
-    "react-minimal"
-  ]
+    "plugin:react/recommended"
+  ],
+  "parser": "babel-eslint",
+  "rules": {
+    "react/prop-types": 0
+  }
 }
